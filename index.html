@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubclub</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="cabecalho" class="navbar sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand titles m-0 text-white">
+                <i class="bi bi-suit-diamond-fill"></i>
+                Rubi Club
+            </h1>
+            <button class="navbar-toggler rounded" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon rounded"></span>
+            </button>
+            <nav class="navbar-collapse collapse" id="menu">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link active">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#espaco" class="nav-link">Nossos espaços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#eventos" class="nav-link">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contatos" class="nav-link">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section class="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2500">
+                        <img src="images/casa-de-eventos-festa.png" alt="local a céu aberto " srcset="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="images/festa.png" alt=" pizza" srcset="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="images/mesas.png" alt="tomates cerejas e uma massa em uma mesa" srcset="">
+                    </div>
+                </div>
+                <div class="container pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764_1280.jpg" alt=""
+                                class="w-100 rounded">
+                        </div>
+                        <div id="sobre" class="col-md-6">
+                            <h2 class="colordark titles mt-sm-2" id="sobre-title">Sobre o Rubi Club</h2>
+                            <p>A Rubi Club é uma empresa nacionalmente reconhecida pelos seus excelentes serviços, tanto
+                                com
+                                aluguel de galpões, casas de festas, entre outros serviços prestados</p>
+                            <h3 class="colordark titles">Sobre as casas de festas</h3>
+                            <p>Nós conseguimos para você os melhores lugares para seja lá qual for o seu evento,
+                                aniversário, show, sociais, entre outras.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="espaco " id="espaco">
+            <div class="container">
+                <h2 class="titles colorlight text-center pt-5 pb-5">Nossos Espaços</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <img src="images/festa2.jpeg" alt="" class="w-100 h-75 rounded-4">
+                        <h3 class="titles colorlight mt-2">Restaurantes</h3>
+                        <p>Diversidade de restaurantes para qualquer evento. </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="images/festa3.jpeg" alt="" class="w-100 h-75 rounded-4">
+                        <h3 class="titles colorlight mt-2">Galpões decorados</h3>
+                        <p>Fetsa e celebração? Conte conosco. </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <img src="images/festas.jpg" alt="" class="w-100 h-75 rounded-4">
+                        <h3 class="titles colorlight mt-2">Casa de festa</h3>
+                        <p class="pb-5">Shows e festas de arromba, chamem todes. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="eventos" id="eventos">
+            <div class="container">
+                <div class="row pt-5 pb-5">
+                    <h2 class="titles colordark text-center ">Eventos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-lg-2 col-md-3">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#aniversarios"
+                                class="nav-link active">
+                                Aniversários
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#festas" class="nav-link">
+                                Festas
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#restaurantes" class="nav-link mb-3">
+                                Restaurante
+                            </button>
+                        </nav>
+                    </aside>
+                    <div class="col-lg-10 col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="aniversarios">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <img class="d-block w-100 h-50 rounded-4"
+                                            src="https://cdn.awsli.com.br/800x800/286/286973/produto/8643168/ae2f8a23c1.jpg"
+                                            alt="Coca-cola e copos com limão e gelo">
+                                        <h5 class="text-colored fw-bold mt-2 mb-sm-0">Festa infantil</h5>
+                                        <p>Tragam as crianças e se dirvitam no nosso espaço kids!</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img class="d-block w-100 h-50 rounded-4"
+                                            src="https://static.wixstatic.com/media/a268b1_2ea52b041a26464aa5678358bc7b98fc~mv2.jpeg/v1/crop/x_0,y_40,w_1280,h_1142/fill/w_628,h_628,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-01-24%20at%2014_51_10.jpeg"
+                                            alt="Suco de Laranja">
+                                        <h5 class="text-colored fw-bold mt-2 mb-sm-0">15 anos</h5>
+                                        <p>Planeje conosco essa comemoração tão importante de uma adolescente!</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <img class="d-block w-100 h-50 rounded-4"
+                                            src="https://www.eloisamattos.com/wp-content/uploads/2019/12/resized_ZAIRA100-ELOMATTOS-58-1.jpg"
+                                            alt="Coca-cola e copos com limão e gelo">
+                                        <h5 class="text-colored fw-bold mt-2 mb-sm-0">Festa para idosos</h5>
+                                        <p>Se você quer uma comemoração mais calma, também podemos oferecer o espaço
+                                            certo para isso!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="festas">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-4">
+                                        <img class="d-block w-100 h-50 rounded"
+                                            src="https://agendor-blog-uploads.s3.sa-east-1.amazonaws.com/2022/08/15091002/brincadeiras-confraternizacao-empresa.jpg"
+                                            alt="Coca-cola e copos com limão e gelo">
+                                        <h5 class="text-colored fw-bold mt-2 mb-sm-0">Festa empresarial</h5>
+                                        <p>Temos o espaço certo se você procura algo mais social e formal!</p>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <img class="d-block w-100 h-50 rounded"
+                                            src="https://s2.glbimg.com/neTyhyl1eL4V57yL2L_zVZjqjyo=/e.glbimg.com/og/ed/f/original/2021/05/28/antoine-julien-fpssr-oou4q-unsplash_1.jpg"
+                                            alt="Suco de Laranja">
+                                        <h5 class="text-colored fw-bold mt-2 mb-sm-0">Shows</h5>
+                                        <p>Oferecemos também as maiores casas de festas da cidade!</p>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <img class="d-block w-100 h-50 rounded"
+                                            src="https://imgsapp2.uai.com.br/app/noticia_133890394703/2015/09/15/171795/20150915190055707136o.jpg"
+                                            alt="Coca-cola e copos com limão e gelo">
+                                        <h5 class="text-colored fw-bold mt-2 mb-sm-0">Social reservada</h5>
+                                        <p>Esse é o espaço perfeito para uma social com amigos ou eventos familiares</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="restaurantes">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-4">
+                                        <img class="d-block w-100 h-50"
+                                            src="https://blog.arboimoveis.com.br/wp-content/uploads/2020/09/melhores-restaurantes-de-sp.jpg"
+                                            alt="Coca-cola e copos com limão e gelo">
+                                        <h5 class="text-colored fw-bold mt-2 mb-sm-0">Restaurante chique</h5>
+                                        <p>Nesse espaço ofecemos os serviços mais chiques da cidade!</p>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <img class="d-block w-100 h-50"
+                                            src="https://lh5.googleusercontent.com/mG8aFZmiN_uUGskCRLWZvvWpF-Ae3nBiHC5ahiJ27BfLvbgCXljsqdSvSEtqllXn_8yQIDMXRf7hfsEnFAibHJYUyQ3O8U1_e4PhFNoNBKWgnM_X1Gl4dTuffwf7FFIlPkvDW1_XrThiNeH91Azlem4kQQtE977JQr7xryGrxYbcUED0orCwYamEyCZpGNHHqfiONw"
+                                            alt="Suco de Laranja">
+                                        <h5 class="text-colored fw-bold mt-2 mb-sm-0">Restaurante alternativo</h5>
+                                        <p>Para os jovens alternativos também temos opções!</p>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <img class="d-block w-100 h-50"
+                                            src="https://media-cdn.tripadvisor.com/media/photo-s/18/9b/07/19/bar-do-restaurante-rick.jpg">
+                                        <h5 class="text-colored fw-bold mt-2 pb-sm-0">Restaurante e bar</h5>
+                                        <p>Para reuniões ou comemorações nada formais!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contatos pb-5" id="contatos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titles colorlight text-center pt-5 pb-5">Contatos</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <label for="nome" class="form-label">
+                                <h5 class="titles colorlight fw-bold mb-0">Nome</h5>
+                            </label>
+                            <input type="text" class="form-control mb-2">
+                            <label for="nome" class="form-label">
+                                <h5 class="titles colorlight fw-bold mb-0">E-mail</h5>
+                            </label>
+                            <input type="text" class="form-control mb-2">
+                            <label for="nome" class="form-label">
+                                <h5 class="titles colorlight fw-bold mb-0">Telefone</h5>
+                            </label>
+                            <input type="number" class="form-control mb-2">
+                            <label for="nome" class="form-label">
+                                <h5 class="titles colorlight fw-bold mb-0">Sua mensagem</h5>
+                            </label>
+                            <textarea name="mensagem" id="mensagem" rows="3" class="form-control"></textarea>
+                        </form>
+                        <button type="submit" class="btn fw-bold mt-3">Enviar</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social-links">
+                            <h3 class="titles colorlight mt-2">Redes Sociais</h3>
+                            <a href=""><i class="bi bi-facebook colorlight fs-5"></i></a>
+                            <a href=""><i class="bi bi-instagram mx-2 colorlight fs-5"></i></a>
+                            <a href=""><i class="bi bi-whatsapp colorlight fs-5"></i></a>
+                        </div>
+                        <div class="address">
+                            <h3 class="titles colorlight mt-3">
+                                Endereço
+                            </h3>
+                            <p>
+                            <address>Rua dos bobos, 0 - Lugar Nenhum/AL</address>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

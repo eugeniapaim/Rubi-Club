@@ -1,0 +1,82 @@
+header {
+    background-color: rgb(101, 75, 119);
+}
+
+.navbar-toggler {
+    padding: 10px;
+    padding-inline: 5px;
+    background-color: rgb(101, 75, 119);
+    border: none;
+}
+
+.navbar-toggler-icon {
+    padding: 18px;
+    background-color: #fff;
+}
+
+.titles {
+    font-family: 'Nova Square', sans-serif;
+}
+
+h1.navbar-brand {
+    font-size: xx-large;
+}
+.navbar-collapse,
+.nav-item,
+.nav-link
+{
+    color: #fff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(138, 120, 158);
+}
+
+#eventos .nav-pills .nav-link.active  {
+    background-color: rgb(101, 75, 119)
+}
+
+.nav-pills .nav-link.active:hover {
+    color: #fff;
+}
+
+.nav-pills .nav-link:hover {
+    color: rgb(145, 105, 179);
+}
+
+.nav-pills {
+    justify-content: center;
+    color: #fff;
+}
+
+.colordark {
+    color: rgb(101, 75, 119);
+}
+
+.colorlight {
+    color: rgb(190, 177, 201);
+}
+
+.carousel.slide img {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+}
+
+.sobre, .eventos {
+    background-color: rgb(190, 177, 201);
+}
+
+.espaco,
+.contatos {
+    background-color: rgb(145, 105, 179);
+}
+
+
+
+#contatos button {
+    background-color: rgb(190, 177, 201);
+    width: 100%;
+}
+
+
